@@ -1,6 +1,6 @@
 const Header = () => {
     return(
-        <h1>Guess The Number</h1>
+        <header>Guess The Number Game</header>
     );
 }
 
