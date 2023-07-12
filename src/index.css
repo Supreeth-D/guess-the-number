@@ -8,6 +8,61 @@ body {
   background-color: #282c34;
 }
 
+header{
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(18px + 2vmin);
+  font-weight: bolder;
+  color: white;
+  font-family: 'Segoe UI';
+}
+
+.Title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(8px + 2vmin);
+  font-weight: bolder;
+  color: rgb(224, 81, 81);
+}
+
+.success{
+  color: rgb(10, 10, 10);
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgb(90, 206, 167);
+}
+
+.High{
+  color: rgb(10, 10, 10);
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgb(243, 89, 115);
+
+}
+
+.Low{
+  color: rgb(10, 10, 10);
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgb(243, 89, 115);
+
+}
+
+main{
+  min-height: 50vh;
+  margin: 20vh;
+  border: solid rgb(228, 221, 159);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
